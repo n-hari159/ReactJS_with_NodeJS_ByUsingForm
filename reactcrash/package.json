@@ -14,11 +14,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "http:localhost:5000p",
+  "homepage": "http://localhost:3000",
+  "proxy":"http://localhost:1234",
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy":"http://localhost:1234",
   "browserslist": [
     ">0.2%",
     "not dead",
