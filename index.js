@@ -10,7 +10,7 @@ const port=process.env.PORT||1234;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.use(express.static(path.join(__dirname,"/Views")));
+app.use(express.static(path.join(__dirname,"Views/build")));
 
 
 app.get("/", function(req,res,next){
